@@ -1,4 +1,4 @@
--- Use your context
+
 USE WAREHOUSE COMPUTE_WH;
 USE DATABASE HEVO_DB;
 USE SCHEMA PUBLIC;
@@ -56,7 +56,6 @@ INSERT INTO COUNTRY_DIM VALUES
 ('Pune',      'India', 'West'),
 ('Mumbai',    'India', 'West');
 
--- Quick validation
 SELECT * FROM CUSTOMERS_RAW;
 SELECT * FROM ORDERS_RAW;
 SELECT * FROM PRODUCTS_RAW;
